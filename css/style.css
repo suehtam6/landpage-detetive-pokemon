@@ -5,8 +5,8 @@ body{
     background-size: cover;
     font-family: "Inter", sans-serif;
     padding: 30px;
-    filter: drop-shadow(drop-shadow ( 100px, 100px, 100px, 100px));
     flex-direction: column;
+    height: 60vw;
 }
 
 
@@ -15,9 +15,8 @@ body{
     align-items: center;
     color: #F4F4F4;
     gap: 15px;
-    flex-grow: 1;
-    background-color: #DDC31C;
 }
+
 .img_canto{
     display: flex;
     position: relative;
@@ -30,13 +29,10 @@ main{
 
     display: flex;
     align-items: center;
-    background-color: black;
-    flex-grow: 3;
-    height: 100%;
-    width: 100%;
-    top: 50%;
+    height: 80%;
+    width: 80%;
     color: #F4F4F4;
-
+    align-items: self-end;
 }
 
 
@@ -51,6 +47,36 @@ main{
 }
 
 footer{
-    background-color: blue;
-    flex-grow: 1;
+    font-size: 10px;
+    color: #F4F4F4;
+}
+
+.caixa_12{
+
+    border: solid white 1px;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+.container_estrela{
+    display: flex;
+    align-items: center;
+}
+
+.container_watch{
+    background-color: #DF4A4A;
+    height: 52px;
+    width: 189px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.filmes img{
+    display: flex;
+    height: 144px;
+    width: 222px;
+    align-items: center;
+    justify-items: center;
 }
