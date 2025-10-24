@@ -5,22 +5,52 @@ body{
     background-size: cover;
     font-family: "Inter", sans-serif;
     padding: 30px;
+    filter: drop-shadow(drop-shadow ( 100px, 100px, 100px, 100px));
+    flex-direction: column;
 }
 
-header{
-
-}
 
 .container_topo{
     display: flex;
     align-items: center;
     color: #F4F4F4;
     gap: 15px;
-
+    flex-grow: 1;
+    background-color: #DDC31C;
 }
 .img_canto{
     display: flex;
     position: relative;
     top: -40px;
     justify-content: flex-end;
+}
+
+
+main{
+
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-grow: 3;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    color: #F4F4F4;
+
+}
+
+
+.caixa_new{
+    background-color: #DDC31C;
+    display: flex;
+    padding: 5px 5px;
+    border-radius: 15px;
+    width: 45px;
+    height: 30px;
+    color: black;
+}
+
+footer{
+    background-color: blue;
+    flex-grow: 1;
 }
