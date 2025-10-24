@@ -1,0 +1,20 @@
+body{
+
+    background-image: url(../img/capa\ teste\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+    padding: 70px;
+}
+
+.container_topo{
+    display: flex;
+    align-items: center;
+    color: #F4F4F4;
+    gap: 15px;
+}
+.img_canto{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
