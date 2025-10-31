@@ -97,15 +97,23 @@ footer{
 .filmes img{
     height: 200px;
     
+    
 }
 
-.centralizar img{
+#centralizar{
 
     display: flex;
     height: 50px;
+    width: 250px;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.centralizar img{
+    height: 50px;
     width: 50px;
     
-    justify-content: center;
 }
 
 
