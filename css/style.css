@@ -138,9 +138,8 @@ footer{
 
     background-color: #DDC31C;
     display: flex;
-    text-align: start;//
-
-    flex-direction: none;
+    text-align: start;
+    
 }
 
 }
