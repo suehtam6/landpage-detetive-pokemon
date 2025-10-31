@@ -92,6 +92,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    margin-bottom: 50px; 
 }
 
 .filmes img{
@@ -103,11 +105,13 @@ footer{
 #centralizar{
 
     display: flex;
-    height: 50px;
-    width: 250px;
+    height: 100px;
+    width: 1200px;
     flex-direction: row;
     gap: 20px;
-    
+    justify-content: center;
+    transform: translate(-1%, 100%);
+    position: relative;
 }
 
 .centralizar img{
@@ -116,4 +120,38 @@ footer{
     
 }
 
+@media (max-width: 1024px){
 
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        
+}
+
+main{
+   display: flex;
+   margin-top: -100px;
+}
+footer{
+
+    background-color: #DDC31C;
+    display: flex;
+    text-align: start;//
+
+    flex-direction: none;
+}
+
+}
+    
+.filmes{
+    display:none;
+}
+
+.centralizar{
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
