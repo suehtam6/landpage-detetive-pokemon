@@ -98,3 +98,14 @@ footer{
     height: 200px;
     
 }
+
+.centralizar img{
+
+    display: flex;
+    height: 50px;
+    width: 50px;
+    
+    justify-content: center;
+}
+
+
