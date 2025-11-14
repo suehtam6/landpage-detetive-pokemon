@@ -170,3 +170,52 @@ footer{
 }
 
 }
+
+
+@media (max-width: 764px){
+
+a{
+    display: none;
+}
+
+.texto1{
+    display: none;
+}
+.genres{
+    display: none;
+}
+
+.texto2{
+    display: none;
+}
+.caixa_12{
+    display: none;
+}
+
+main{
+    display: flex;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.container_estrela{
+    position: relative;
+    padding-bottom: 40%;
+    
+}
+.container_watch{
+    display: flex;
+    position: relative;
+    left: 32%;
+
+}
+
+#centralizar{
+    position: relative;
+    display: flex;
+    top: 20%;
+    right: 32%;
+    gap: 40px;
+}
+
+}
